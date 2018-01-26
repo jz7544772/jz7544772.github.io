@@ -35,7 +35,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nbody {\n  font-family: Arial;\n  font-size: 62.5%; }\n\napp-root {\n  display: block;\n  max-width: 480px;\n  margin: 0 auto; }\n  app-root nav {\n    font-size: 1.8em; }\n\napp-index form .input-group label {\n  font-size: 1.6em; }\n\napp-index form .input-group input {\n  border-radius: 10px;\n  border: 1px solid #CCC;\n  font-size: 1.6em;\n  padding: 5px; }\n\napp-index form .input-group input[type=\"text\"]:focus {\n  border-color: #0095FF;\n  outline: none; }\n\napp-index form button[type=\"submit\"] {\n  margin: 10px 0px; }\n\napp-index .error-message {\n  color: #FF0000;\n  font-size: 1.5em; }\n\napp-index .restaurant-list {\n  list-style: none;\n  margin: 20px 0px 0px 0px;\n  padding: 0px;\n  width: 100%; }\n  app-index .restaurant-list .restaurant-item {\n    border-bottom: 1px solid #cccccc;\n    color: #555555;\n    font-size: 1.4em;\n    margin-bottom: 20px;\n    padding-bottom: 5px; }\n    app-index .restaurant-list .restaurant-item .field .field-name {\n      font-weight: 700; }\n", ""]);
 
 // exports
 
